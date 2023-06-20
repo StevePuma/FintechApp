@@ -1,0 +1,43 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "CategoryID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CategoryID",
+            "oid": "6200bb25-a640-4e87-8bc6-9640c3528b97",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "CategoryName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CategoryName",
+            "oid": "3ede61ce-1151-4701-bc7a-f47d62c5bd8e",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        }
+    ],
+    "configOptions": {
+        "Table": "ProductCategory"
+    },
+    "dataset": "97c13ca2-02d8-4f4f-a7ae-f8a54604dd33",
+    "hidden": true,
+    "id": "ProductCategory",
+    "isMaterialized": false,
+    "name": "ProductCategory",
+    "oid": "467e5540-6440-41a9-b111-6bebb17f63cf",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

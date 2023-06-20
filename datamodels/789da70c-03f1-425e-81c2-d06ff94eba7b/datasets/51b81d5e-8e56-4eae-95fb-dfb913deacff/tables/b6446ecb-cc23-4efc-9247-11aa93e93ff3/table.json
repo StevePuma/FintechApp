@@ -1,0 +1,67 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "CustomerTypeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CustomerTypeID",
+            "oid": "e95a33ed-ef3a-47db-b6da-226381f766dd",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "CustomerTypeDescription",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CustomerTypeDescription",
+            "oid": "03424ef2-cb9e-413b-80c6-dc8067c993a1",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "Low",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Low",
+            "oid": "ca4871a4-7fad-4f3a-9947-654289270f6b",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "High",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "High",
+            "oid": "67f7cd2e-fa23-4de3-b9e7-8ea2c9ad6f9a",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "Table": "CustomerType"
+    },
+    "dataset": "51b81d5e-8e56-4eae-95fb-dfb913deacff",
+    "hidden": true,
+    "id": "CustomerType",
+    "isMaterialized": false,
+    "name": "CustomerType",
+    "oid": "b6446ecb-cc23-4efc-9247-11aa93e93ff3",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

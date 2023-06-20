@@ -1,0 +1,115 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "fad2447e-eb66-40fb-8e80-750a78ff6c2a",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "ProductName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductName",
+            "oid": "beb80651-1f74-4c1f-91f6-f508c88cd730",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "Loan Amount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Loan Amount",
+            "oid": "e8097843-fdca-45ea-8b0a-3c6b13f168c1",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Finance Plan in years",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Finance Plan in years",
+            "oid": "8295226b-325d-4050-a632-8f630b6e37af",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "SubCategoryID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SubCategoryID",
+            "oid": "314d8561-4ab3-4dd2-8a8f-9d1b5430f52b",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Annual Fee",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Annual Fee",
+            "oid": "70bc8878-ac2b-4ce8-a32b-6c7f5f70a2c3",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "APR",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "APR",
+            "oid": "30431fdf-8f4e-4011-986b-33491577a142",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Total Fee",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Total Fee",
+            "oid": "063500ff-5254-472c-82b8-19077f95a4ed",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "Table": "Product"
+    },
+    "dataset": "da59e417-f8e9-4e2f-928b-58e9fb9f8a63",
+    "hidden": true,
+    "id": "Product",
+    "isMaterialized": false,
+    "name": "Product",
+    "oid": "a8d231a5-5b20-4bf9-86eb-995658dc4f8e",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

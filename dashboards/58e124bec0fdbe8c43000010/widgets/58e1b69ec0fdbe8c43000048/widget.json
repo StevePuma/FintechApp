@@ -1,0 +1,80 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "58e124bec0fdbe8c43000010",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aRetailXwAaBanking",
+        "fullname": "localhost/Retail_Banking",
+        "id": "localhost_aRetailXwAaBanking",
+        "live": false,
+        "title": "Retail_Banking"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "excludeFilterDims": [
+        ],
+        "hideDrilledDashboards": true,
+        "includeFilterDims": [
+        ],
+        "resetDashFiltersAfterJTD": false,
+        "showFolderNameOnMenuSelection": false,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+        ]
+    },
+    "oid": "58e1b69ec0fdbe8c43000048",
+    "options": {
+        "dashboardFiltersMode": "filter",
+        "disableExportToCSV": true,
+        "disableExportToImage": true,
+        "disallowSelector": true,
+        "disallowWidgetTitle": true,
+        "hideFromWidgetList": true,
+        "selector": false,
+        "supportsHierarchies": false,
+        "toolbarButton": {
+            "css": "add-rich-text",
+            "tooltip": "RICHTEXT_MAIN.TOOLBAR_BUTTON"
+        },
+        "triggersDomready": true
+    },
+    "style": {
+        "content": {
+            "bgColor": "rgb(255, 255, 255)",
+            "html": "<h3><span style=\"color:#124c87\"><strong><span style=\"color:inherit\">How are my loan deals doing? (Mortgage and Credit)</span></strong></span></h3>\n",
+            "textAlign": "center",
+            "vAlign": "valign-middle"
+        }
+    },
+    "subtype": "richtexteditor",
+    "title": "Rich Text",
+    "type": "richtexteditor"
+}

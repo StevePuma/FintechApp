@@ -1,0 +1,35 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "TransactionDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TransactionDate",
+            "oid": "75ef0201-8c0e-41f7-9c37-02c7dc5734f1",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        }
+    ],
+    "configOptions": {
+        "Table": "a4a97e4b3LQAa7627LQAa4b14LQAaa886LQAa41f754d81873"
+    },
+    "dataset": "06c111e7-e86e-4628-8737-d740827052b7",
+    "expression": {
+        "expression": "./table.sql",
+        "oid": "cccea256-01b4-400d-a391-d571096a1de7"
+    },
+    "hidden": false,
+    "id": "a4a97e4b3LQAa7627LQAa4b14LQAaa886LQAa41f754d81873",
+    "isMaterialized": null,
+    "name": "DimDate",
+    "oid": "d1afaf16-ea1d-48a5-baee-02e9aadb426d",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

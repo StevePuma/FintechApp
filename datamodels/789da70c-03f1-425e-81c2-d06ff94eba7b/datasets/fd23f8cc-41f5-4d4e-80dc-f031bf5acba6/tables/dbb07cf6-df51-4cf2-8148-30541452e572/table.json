@@ -1,0 +1,55 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "SubCategoryID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SubCategoryID",
+            "oid": "b4835999-f8a8-472c-b5ce-55103177b2f6",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "SubCategory",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SubCategory",
+            "oid": "5b828d57-7b35-4814-87da-a8c019dbee54",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "CategoryID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CategoryID",
+            "oid": "086cedc6-3bc0-48cd-a606-be58e68c0843",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "Table": "SubCategory"
+    },
+    "dataset": "fd23f8cc-41f5-4d4e-80dc-f031bf5acba6",
+    "hidden": true,
+    "id": "SubCategory",
+    "isMaterialized": false,
+    "name": "SubCategory",
+    "oid": "dbb07cf6-df51-4cf2-8148-30541452e572",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

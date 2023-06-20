@@ -1,0 +1,32 @@
+{
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./06c111e7-e86e-4628-8737-d740827052b7/dataset.json",
+        "./1c935da5-dc33-498d-979f-23713a91b767/dataset.json",
+        "./295e0b34-7cb4-4eea-a56e-57e48ede11ee/dataset.json",
+        "./49d2138e-3503-4469-8ccd-bc9863388f77/dataset.json",
+        "./51b81d5e-8e56-4eae-95fb-dfb913deacff/dataset.json",
+        "./5e618872-23bb-4f53-8254-dcedef3c30b3/dataset.json",
+        "./6f03c97a-cacb-4a84-a08b-b0c12586da4f/dataset.json",
+        "./6fb787d1-3251-48f4-be0c-ecce0bebbe6c/dataset.json",
+        "./8e544498-12db-491d-ab46-73d5ba32b6e0/dataset.json",
+        "./97c13ca2-02d8-4f4f-a7ae-f8a54604dd33/dataset.json",
+        "./9b5bd855-568e-4001-8d30-47477459cd63/dataset.json",
+        "./c6ebc73a-8cb4-49c1-a068-d72b11f91d56/dataset.json",
+        "./da59e417-f8e9-4e2f-928b-58e9fb9f8a63/dataset.json",
+        "./e9e4e85f-5151-4bba-a55b-0606c443277e/dataset.json",
+        "./fd23f8cc-41f5-4d4e-80dc-f031bf5acba6/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2017-04-13T09:14:03.786Z",
+    "oid": "789da70c-03f1-425e-81c2-d06ff94eba7b",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "title": "Retail_Banking",
+    "type": "extract"
+}

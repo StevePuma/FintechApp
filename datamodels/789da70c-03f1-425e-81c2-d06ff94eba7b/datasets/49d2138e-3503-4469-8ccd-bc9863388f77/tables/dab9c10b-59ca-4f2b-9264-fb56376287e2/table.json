@@ -1,0 +1,109 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "AccountID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AccountID",
+            "oid": "8e8a3be0-6c96-4a39-8666-8c6e07201138",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Year",
+            "oid": "5d3cc33a-5e9b-4f93-a732-fd98376aa6c1",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Month",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Month",
+            "oid": "eb15a1f4-3877-4d3e-be27-8ef2db095bd2",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Day",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Day",
+            "oid": "b4877c20-e42e-49ea-96f0-7b6d3ba0f769",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductID_Ratio",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID_Ratio",
+            "oid": "fd6a8292-b798-4ff8-b413-5e945ed201d8",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "b996b67a-7844-44e4-8c1f-288574f7c22a",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductName",
+            "oid": "52875c40-f567-47af-acef-3f14a64acdaa",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "Table": "Individiual_High_Loans_Match.csv",
+        "culture": "en-US",
+        "delimiter": ",",
+        "hasHeader": true,
+        "ignoreFirstRows": 0,
+        "ignoreLastRows": 0,
+        "stringQuote": "\""
+    },
+    "dataset": "49d2138e-3503-4469-8ccd-bc9863388f77",
+    "hidden": true,
+    "id": "Individiual_High_Loans_Match.csv",
+    "isMaterialized": false,
+    "name": "Individiual_High_Loans_Match",
+    "oid": "dab9c10b-59ca-4f2b-9264-fb56376287e2",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

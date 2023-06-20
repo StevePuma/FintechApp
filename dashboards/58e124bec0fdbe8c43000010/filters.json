@@ -1,0 +1,199 @@
+{
+    "defaultFilters": [
+        {
+            "disabled": false,
+            "instanceid": "2D420-EFCE-CE",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "TransactionDate",
+                "datatype": "datetime",
+                "dim": "[DimDate.TransactionDate (Calendar)]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "level": "years",
+                "merged": true,
+                "table": "DimDate",
+                "title": "Years in TransactionDate"
+            }
+        },
+        {
+            "disabled": false,
+            "instanceid": "B8EAF-B786-C1",
+            "isCascading": true,
+            "levels": [
+                {
+                    "collapsed": true,
+                    "column": "CategoryName",
+                    "datatype": "text",
+                    "dim": "[DimCategory.CategoryName]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "multiSelection": true
+                    },
+                    "merged": true,
+                    "panel": "scope",
+                    "table": "DimCategory",
+                    "title": "CategoryName"
+                },
+                {
+                    "collapsed": true,
+                    "column": "SubCategory",
+                    "datatype": "text",
+                    "dim": "[DimCategory.SubCategory]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "multiSelection": true
+                    },
+                    "merged": true,
+                    "panel": "scope",
+                    "table": "DimCategory",
+                    "title": "SubCategory"
+                },
+                {
+                    "collapsed": true,
+                    "column": "ProductName",
+                    "datatype": "text",
+                    "dim": "[DimCategory.ProductName]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "multiSelection": true
+                    },
+                    "merged": true,
+                    "table": "DimCategory",
+                    "title": "ProductName"
+                }
+            ],
+            "model": {
+                "__store": [
+                    "[DimCategory.CategoryName]",
+                    "[DimCategory.SubCategory]",
+                    "[DimCategory.ProductName]"
+                ],
+                "instanceid": "7FDC3-E6C0-79"
+            }
+        },
+        {
+            "disabled": false,
+            "instanceid": "CE1DF-9744-52",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "CustomerTypeDescription",
+                "datatype": "text",
+                "dim": "[DimCustomerAccount.CustomerTypeDescription]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "merged": true,
+                "table": "DimCustomerAccount",
+                "title": "Customer Type"
+            }
+        }
+    ],
+    "filters": [
+        {
+            "disabled": false,
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "TransactionDate",
+                "datatype": "datetime",
+                "dim": "[DimDate.TransactionDate (Calendar)]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "level": "years",
+                "merged": true,
+                "table": "DimDate",
+                "title": "Years in TransactionDate"
+            }
+        },
+        {
+            "disabled": false,
+            "isCascading": true,
+            "levels": [
+                {
+                    "collapsed": true,
+                    "column": "CategoryName",
+                    "datatype": "text",
+                    "dim": "[DimCategory.CategoryName]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "multiSelection": true
+                    },
+                    "merged": true,
+                    "panel": "scope",
+                    "table": "DimCategory",
+                    "title": "CategoryName"
+                },
+                {
+                    "collapsed": true,
+                    "column": "SubCategory",
+                    "datatype": "text",
+                    "dim": "[DimCategory.SubCategory]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "multiSelection": true
+                    },
+                    "merged": true,
+                    "panel": "scope",
+                    "table": "DimCategory",
+                    "title": "SubCategory"
+                },
+                {
+                    "collapsed": true,
+                    "column": "ProductName",
+                    "datatype": "text",
+                    "dim": "[DimCategory.ProductName]",
+                    "filter": {
+                        "all": true,
+                        "explicit": false,
+                        "multiSelection": true
+                    },
+                    "merged": true,
+                    "table": "DimCategory",
+                    "title": "ProductName"
+                }
+            ],
+            "model": {
+                "__store": [
+                    "[DimCategory.CategoryName]",
+                    "[DimCategory.SubCategory]",
+                    "[DimCategory.ProductName]"
+                ],
+                "instanceid": "7FDC3-E6C0-79"
+            }
+        },
+        {
+            "disabled": false,
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "CustomerTypeDescription",
+                "datatype": "text",
+                "dim": "[DimCustomerAccount.CustomerTypeDescription]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "merged": true,
+                "table": "DimCustomerAccount",
+                "title": "Customer Type"
+            }
+        }
+    ]
+}

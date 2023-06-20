@@ -1,0 +1,180 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "58e124bec0fdbe8c43000010",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aRetailXwAaBanking",
+        "fullname": "localhost/Retail_Banking",
+        "id": "localhost_aRetailXwAaBanking",
+        "live": false,
+        "title": "Retail_Banking"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "excludeFilterDims": [
+        ],
+        "hideDrilledDashboards": true,
+        "includeFilterDims": [
+        ],
+        "resetDashFiltersAfterJTD": false,
+        "showFolderNameOnMenuSelection": false,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "jaql": {
+                            "column": "CustomerTypeDescription",
+                            "datatype": "text",
+                            "dim": "[DimCustomerAccount.CustomerTypeDescription]",
+                            "merged": true,
+                            "table": "DimCustomerAccount",
+                            "title": "CustomerType"
+                        }
+                    }
+                ],
+                "name": "categories"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color_bkp": {
+                                "color": "#3471AD",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "jaql": {
+                            "context": {
+                                "[3A622-D91]": {
+                                    "column": "TransactionAmount",
+                                    "datatype": "numeric",
+                                    "dim": "[Fact_Transactions.TransactionAmount]",
+                                    "table": "Fact_Transactions",
+                                    "title": "Transaction Amount"
+                                }
+                            },
+                            "formula": "sum([3A622-D91])",
+                            "title": "Transaction Amount",
+                            "type": "measure"
+                        }
+                    }
+                ],
+                "name": "size"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "max": "#2a5a8a",
+                                "maxValueValid": true,
+                                "maxvalue": null,
+                                "midValueValid": true,
+                                "midvalue": null,
+                                "min": "#ff7312",
+                                "minValueValid": true,
+                                "minvalue": null,
+                                "rangeMode": "both",
+                                "steps": 9,
+                                "type": "range"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "jaql": {
+                            "context": {
+                                "[32199-49B]": {
+                                    "column": "TransactionAmount",
+                                    "datatype": "numeric",
+                                    "dim": "[Fact_Transactions.TransactionAmount]",
+                                    "table": "Fact_Transactions",
+                                    "title": "Transaction Amount"
+                                }
+                            },
+                            "formula": "sum([32199-49B])",
+                            "title": "Transaction Amount1",
+                            "type": "measure"
+                        }
+                    }
+                ],
+                "name": "color"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ]
+    },
+    "oid": "58e1256ac0fdbe8c43000018",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "disallowSelector": false,
+        "selector": true,
+        "supportsHierarchies": false,
+        "triggersDomready": true
+    },
+    "size": "big",
+    "style": {
+        "title/1": true,
+        "title/2": true,
+        "title/3": true,
+        "tooltip/contribution": false,
+        "tooltip/value": true
+    },
+    "subtype": "treemap",
+    "title": "Relative Income per Customer Type",
+    "type": "treemap"
+}

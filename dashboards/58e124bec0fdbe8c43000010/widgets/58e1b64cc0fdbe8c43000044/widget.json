@@ -1,0 +1,202 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "58e124bec0fdbe8c43000010",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aRetailXwAaBanking",
+        "fullname": "localhost/Retail_Banking",
+        "id": "localhost_aRetailXwAaBanking",
+        "live": false,
+        "title": "Retail_Banking"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "excludeFilterDims": [
+        ],
+        "hideDrilledDashboards": true,
+        "includeFilterDims": [
+        ],
+        "resetDashFiltersAfterJTD": false,
+        "showFolderNameOnMenuSelection": false,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[DimCategory.SubCategory]",
+                            "index": 0
+                        },
+                        "jaql": {
+                            "column": "SubCategory",
+                            "datatype": "text",
+                            "dim": "[DimCategory.SubCategory]",
+                            "merged": true,
+                            "table": "DimCategory",
+                            "title": "SubCategory"
+                        }
+                    },
+                    {
+                        "field": {
+                            "id": "[DimCategory.ProductName]",
+                            "index": 1
+                        },
+                        "jaql": {
+                            "column": "ProductName",
+                            "datatype": "text",
+                            "dim": "[DimCategory.ProductName]",
+                            "merged": true,
+                            "table": "DimCategory",
+                            "title": "ProductName"
+                        }
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Fact_Transactions.TransactionAmount]_sum",
+                            "index": 2
+                        },
+                        "format": {
+                            "color": {
+                                "conditions": [
+                                    {
+                                        "color": "#fc7570",
+                                        "expression": "3000000",
+                                        "operator": "<"
+                                    },
+                                    {
+                                        "color": "#00a808",
+                                        "expression": "10000000",
+                                        "operator": ">"
+                                    }
+                                ],
+                                "type": "condition"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": false,
+                                    "k": false,
+                                    "m": true,
+                                    "t": false
+                                },
+                                "decimals": "auto",
+                                "number": {
+                                    "separated": true
+                                }
+                            }
+                        },
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "TransactionAmount",
+                            "datatype": "numeric",
+                            "dim": "[Fact_Transactions.TransactionAmount]",
+                            "sort": "desc",
+                            "sortDetails": {
+                                "dir": "desc",
+                                "field": 2,
+                                "initialized": true,
+                                "measurePath": null,
+                                "sortingLastDimension": "sum"
+                            },
+                            "table": "Fact_Transactions",
+                            "title": "Income"
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                    {
+                        "jaql": {
+                            "collapsed": false,
+                            "column": "SubCategory",
+                            "datasource": {
+                                "address": "LocalHost",
+                                "database": "aRetailXwAaBanking",
+                                "fullname": "localhost/Retail_Banking",
+                                "id": "localhost_aRetailXwAaBanking",
+                                "live": false,
+                                "title": "Retail_Banking"
+                            },
+                            "datatype": "text",
+                            "dim": "[DimCategory.SubCategory]",
+                            "filter": {
+                                "explicit": true,
+                                "members": [
+                                    "Credit Loan"
+                                ],
+                                "multiSelection": true
+                            },
+                            "merged": true,
+                            "table": "DimCategory",
+                            "title": "SubCategory"
+                        },
+                        "title": "SubCategory"
+                    }
+                ],
+                "name": "filters"
+            }
+        ]
+    },
+    "oid": "58e1b64cc0fdbe8c43000044",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "script_old": null,
+    "style": {
+        "automaticHeight": false,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "pageSize": 25
+    },
+    "subtype": "pivot",
+    "title": "Credit Loan performance",
+    "type": "pivot"
+}

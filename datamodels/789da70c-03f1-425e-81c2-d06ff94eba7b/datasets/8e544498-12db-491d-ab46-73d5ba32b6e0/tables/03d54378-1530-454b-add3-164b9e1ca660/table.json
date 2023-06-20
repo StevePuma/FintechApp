@@ -1,0 +1,139 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "ClientID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ClientID",
+            "oid": "f6b19843-f696-4b24-837d-48c942f0a3bf",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Name",
+            "oid": "f6a22def-23fe-4ff4-8378-6a7c8e3301e3",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "CustomerTypeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CustomerTypeID",
+            "oid": "ded57838-64a2-41ae-90e1-e7491efe8e32",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Address",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Address",
+            "oid": "50ca804f-4d38-4407-ab49-aff0d5d51c40",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "City",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "City",
+            "oid": "548729eb-bdb3-498e-8777-9f47b4a2553a",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "StateCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StateCode",
+            "oid": "f9f224e5-cd64-4ef9-8595-db2f4fea1dfc",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "StateName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StateName",
+            "oid": "1f97d49a-7738-4582-9144-c43f1127f9d4",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "CountryCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryCode",
+            "oid": "8d0c7839-05d3-44bb-8fa3-176a68f90971",
+            "precision": 0,
+            "scale": 0,
+            "size": 6,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "Country",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Country",
+            "oid": "279c3938-54b6-481d-8f88-139c30110afa",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 10
+        },
+        {
+            "hidden": true,
+            "id": "ZipCode",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ZipCode",
+            "oid": "f4490cc5-c7d6-456f-8973-c216ac0d3535",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "Table": "Customers"
+    },
+    "dataset": "8e544498-12db-491d-ab46-73d5ba32b6e0",
+    "hidden": true,
+    "id": "Customers",
+    "isMaterialized": false,
+    "name": "Customers",
+    "oid": "03d54378-1530-454b-add3-164b9e1ca660",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

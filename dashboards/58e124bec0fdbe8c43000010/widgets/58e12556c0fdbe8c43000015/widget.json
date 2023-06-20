@@ -1,0 +1,180 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "58e124bec0fdbe8c43000010",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aRetailXwAaBanking",
+        "fullname": "localhost/Retail_Banking",
+        "id": "localhost_aRetailXwAaBanking",
+        "live": false,
+        "title": "Retail_Banking"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "excludeFilterDims": [
+        ],
+        "hideDrilledDashboards": true,
+        "includeFilterDims": [
+        ],
+        "resetDashFiltersAfterJTD": false,
+        "showFolderNameOnMenuSelection": false,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "color": "#3471AD",
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": false,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "TransactionAmount",
+                            "datatype": "numeric",
+                            "dim": "[Fact_Transactions.TransactionAmount]",
+                            "table": "Fact_Transactions",
+                            "title": "Total Amount"
+                        }
+                    }
+                ],
+                "name": "value"
+            },
+            {
+                "items": [
+                ],
+                "name": "secondary"
+            },
+            {
+                "items": [
+                ],
+                "name": "min"
+            },
+            {
+                "items": [
+                ],
+                "name": "max"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ]
+    },
+    "oid": "58e12556c0fdbe8c43000015",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "disallowSelector": true,
+        "noTitle": true,
+        "selector": false,
+        "supportsHierarchies": false,
+        "triggersDomready": true
+    },
+    "size": "big",
+    "style": {
+        "components": {
+            "icon": {
+                "enabled": true,
+                "inactive": true
+            },
+            "secondaryTitle": {
+                "enabled": true,
+                "inactive": true
+            },
+            "title": {
+                "enabled": true,
+                "inactive": false
+            }
+        },
+        "indicator/gauge": {
+            "components": {
+                "labels": {
+                    "enabled": true,
+                    "inactive": false
+                },
+                "secondaryTitle": {
+                    "enabled": true,
+                    "inactive": true
+                },
+                "ticks": {
+                    "enabled": true,
+                    "inactive": false
+                },
+                "title": {
+                    "enabled": true,
+                    "inactive": false
+                }
+            },
+            "skin": "1",
+            "subtype": "round"
+        },
+        "indicator/numeric": {
+            "components": {
+                "icon": {
+                    "enabled": true,
+                    "inactive": false
+                },
+                "secondaryTitle": {
+                    "enabled": true,
+                    "inactive": true
+                },
+                "title": {
+                    "enabled": true,
+                    "inactive": false
+                }
+            },
+            "skin": "vertical",
+            "subtype": "simple"
+        },
+        "indicator/pictogram": {
+        },
+        "skin": "vertical",
+        "subtype": "simple"
+    },
+    "subtype": "indicator/numeric",
+    "title": "",
+    "type": "indicator"
+}

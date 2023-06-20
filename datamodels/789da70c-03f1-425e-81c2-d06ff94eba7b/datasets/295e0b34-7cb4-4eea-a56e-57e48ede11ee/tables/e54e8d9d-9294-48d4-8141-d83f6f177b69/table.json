@@ -1,0 +1,109 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "AccountID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AccountID",
+            "oid": "a2cf59dc-3c85-4b08-ad27-17b0c4d072fe",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Year",
+            "oid": "955985a5-e576-48ea-bd50-05409f648c4e",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Month",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Month",
+            "oid": "fc134c84-3b19-4b3d-86ee-f30f6167c590",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Day",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Day",
+            "oid": "2b8d19bf-6934-4e39-9a7e-ee963a7a1d60",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductID_Ratio",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID_Ratio",
+            "oid": "395bdfcd-5715-4f6d-824f-806cac9e698b",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "a625a5f3-3c12-42dd-b9fd-7fcaaa5f0284",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductName",
+            "oid": "4ad2a7bb-71ac-4633-9c2b-beb576a13cd9",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "Table": "ATM_WithDrawal.csv",
+        "culture": "en-US",
+        "delimiter": ",",
+        "hasHeader": true,
+        "ignoreFirstRows": 0,
+        "ignoreLastRows": 0,
+        "stringQuote": "\""
+    },
+    "dataset": "295e0b34-7cb4-4eea-a56e-57e48ede11ee",
+    "hidden": true,
+    "id": "ATM_WithDrawal.csv",
+    "isMaterialized": false,
+    "name": "ATM_WithDrawal.csv",
+    "oid": "e54e8d9d-9294-48d4-8141-d83f6f177b69",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

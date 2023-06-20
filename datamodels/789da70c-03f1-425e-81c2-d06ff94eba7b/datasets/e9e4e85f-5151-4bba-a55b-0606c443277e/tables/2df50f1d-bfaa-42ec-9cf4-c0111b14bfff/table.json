@@ -1,0 +1,109 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "AccountID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AccountID",
+            "oid": "e75d3f36-d190-4b26-b9ca-60f73d97d104",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Year",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Year",
+            "oid": "0b187c34-3aba-4c6d-b053-d104140f6ca9",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Month",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Month",
+            "oid": "d2ae4eea-cfde-48b8-ab0f-ce9786291254",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Day",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Day",
+            "oid": "1da14a15-3739-4e46-9f59-a67f8f5bd2db",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductID_Ratio",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID_Ratio",
+            "oid": "9e5e1f0e-956e-4e56-996c-4bd568f76382",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "b2e83d37-6535-40e5-a0fa-cb5c09a46a9c",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "ProductName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductName",
+            "oid": "9a581498-e692-49a4-9e89-bfc3d5d4e770",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "Table": "Institute_Annual_Match.csv",
+        "culture": "en-US",
+        "delimiter": ",",
+        "hasHeader": true,
+        "ignoreFirstRows": 0,
+        "ignoreLastRows": 0,
+        "stringQuote": "\""
+    },
+    "dataset": "e9e4e85f-5151-4bba-a55b-0606c443277e",
+    "hidden": true,
+    "id": "Institute_Annual_Match.csv",
+    "isMaterialized": false,
+    "name": "Institute_Annual_Match",
+    "oid": "2df50f1d-bfaa-42ec-9cf4-c0111b14bfff",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

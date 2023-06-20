@@ -1,0 +1,71 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": true,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aRetailXwAaBanking",
+        "fullname": "localhost/Retail_Banking",
+        "id": "localhost_aRetailXwAaBanking",
+        "live": false,
+        "title": "Retail_Banking"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "58e124bec0fdbe8c43000010",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "name": "vivid",
+        "palette": {
+            "_id": "57f4e07f552ec1bd8ba412f6",
+            "colors": [
+                "#3471AD",
+                "#F66500",
+                "#FFC400",
+                "#42BC39"
+            ],
+            "isDefault": false,
+            "isSystem": true,
+            "name": "Basic",
+            "sortOrder": 20
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "58e124bec0fdbe8c43000010"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "subscribe": false,
+        "timezone": -120,
+        "type": "onUpdate",
+        "tzName": "Asia/Jerusalem"
+    },
+    "title": "FintechApp",
+    "widgets": [
+        "./widgets/58e12556c0fdbe8c43000015/widget.json",
+        "./widgets/58e1256ac0fdbe8c43000018/widget.json",
+        "./widgets/58e1afe2c0fdbe8c43000027/widget.json",
+        "./widgets/58e1b4dbc0fdbe8c4300003a/widget.json",
+        "./widgets/58e1b5f4c0fdbe8c4300003f/widget.json",
+        "./widgets/58e1b64cc0fdbe8c43000044/widget.json",
+        "./widgets/58e1b69ec0fdbe8c43000048/widget.json",
+        "./widgets/6477bbeb004bc00033f98d38/widget.json",
+        "./widgets/6477bbfa004bc00033f98d3a/widget.json",
+        "./widgets/6477bc29004bc00033f98d3e/widget.json",
+        "./widgets/6477bc9a004bc00033f98d47/widget.json"
+    ]
+}

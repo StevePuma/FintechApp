@@ -1,0 +1,1 @@
+"SELECT DISTINCT ft.TransactionDate\t\t\nFROM [Fact_Transactions] ft"

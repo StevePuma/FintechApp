@@ -1,0 +1,102 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "f82972b1-6588-4775-812c-51e2cb68b5e0",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "ProductName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductName",
+            "oid": "4f51a636-3810-4304-8f08-5625c556c0f3",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Annual Fee",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Annual Fee",
+            "oid": "1733cccb-b081-4024-9b6e-1250bc4ff1f6",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Total Fee",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Total Fee",
+            "oid": "56a8dff3-bb33-4086-8620-188ba244eff1",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "SubCategory",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "SubCategory",
+            "oid": "30c0ffa5-9db8-4e67-89fc-6cfa9e4c7cd7",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CategoryName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CategoryName",
+            "oid": "326c8692-148b-4e51-b24c-e6d23062df29",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "Table": "a42f3edfeLQAa2cabLQAa483aLQAa8975LQAa776433ec2f01"
+    },
+    "dataset": "06c111e7-e86e-4628-8737-d740827052b7",
+    "expression": {
+        "expression": "./table.sql",
+        "oid": "e5a83de4-421b-49c9-9772-297a6d958e68"
+    },
+    "hidden": false,
+    "id": "a42f3edfeLQAa2cabLQAa483aLQAa8975LQAa776433ec2f01",
+    "isMaterialized": null,
+    "name": "DimCategory",
+    "oid": "2109d910-2c05-4675-922a-1da9e117bc41",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "f82972b1-6588-4775-812c-51e2cb68b5e0",
+                "type": 8
+            },
+            "type": "change-data-type"
+        }
+    ],
+    "type": "custom"
+}

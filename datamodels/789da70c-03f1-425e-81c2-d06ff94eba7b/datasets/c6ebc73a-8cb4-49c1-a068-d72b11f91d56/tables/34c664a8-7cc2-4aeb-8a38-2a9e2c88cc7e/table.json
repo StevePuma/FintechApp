@@ -1,0 +1,55 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "AccountID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AccountID",
+            "oid": "d8eb8f2e-a59f-4bac-9e50-90285d6b8050",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "ClientID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ClientID",
+            "oid": "0a7e7189-4ebb-4aaa-8186-95e300f0d1b0",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Current Balance",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Current Balance",
+            "oid": "53c0d4fe-16a9-4cbb-b6ac-832d41889d3b",
+            "precision": 15,
+            "scale": 5,
+            "size": 9,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "Table": "Accounts"
+    },
+    "dataset": "c6ebc73a-8cb4-49c1-a068-d72b11f91d56",
+    "hidden": true,
+    "id": "Accounts",
+    "isMaterialized": false,
+    "name": "Accounts",
+    "oid": "34c664a8-7cc2-4aeb-8a38-2a9e2c88cc7e",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

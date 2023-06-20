@@ -1,0 +1,1 @@
+"SELECT \n\t\ttoint(p.ProductID)\t\tAS ProductID,\n\t\tp.ProductName,\n\t\tp.[Annual Fee],\n\t\tp.[Total Fee],\n\t\tsc.SubCategory,\n\t\tpc.CategoryName\nFROM [Product] p INNER JOIN [SubCategory] sc ON p.SubCategoryID = sc.SubCategoryID INNER JOIN [ProductCategory] pc ON sc.CategoryID = pc.CategoryID"

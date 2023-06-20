@@ -1,0 +1,133 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "AccountID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AccountID",
+            "oid": "d999dc34-0866-486b-929c-bfc052afeb66",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "41d2f41d-0c0a-40ce-ab4a-126d27eded42",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Annual Fee",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Annual Fee",
+            "oid": "284cf4d4-b229-45b4-ba98-0bdc8cee48d5",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Total Fee",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Total Fee",
+            "oid": "c4865200-4270-44d2-a463-3e7c57cc681f",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "Current Balance",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Current Balance",
+            "oid": "94794c51-c9e2-49d1-936e-a6896ab63c64",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "TradeAmount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TradeAmount",
+            "oid": "342ac389-dd97-42db-84e7-84d682299a22",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "TransactionAmount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TransactionAmount",
+            "oid": "e95ddf3f-e407-4ae5-ace0-868454c92263",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": true,
+            "id": "TransactionDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TransactionDate",
+            "oid": "65564315-727b-4681-9ac9-98e033c0ade0",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        }
+    ],
+    "configOptions": {
+        "Table": "aafc11aecLQAadb11LQAa4bd7LQAabb78LQAac2ba6504af49"
+    },
+    "dataset": "06c111e7-e86e-4628-8737-d740827052b7",
+    "expression": {
+        "expression": "./table.sql",
+        "oid": "75628ea1-c4c3-4e4a-b21d-de5c59b1493a"
+    },
+    "hidden": false,
+    "id": "aafc11aecLQAadb11LQAa4bd7LQAabb78LQAac2ba6504af49",
+    "isMaterialized": null,
+    "name": "Fact_Transactions",
+    "oid": "e4b0bc8c-164e-449e-8bbb-919fa2ae130d",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "d999dc34-0866-486b-929c-bfc052afeb66",
+                "type": 8
+            },
+            "type": "change-data-type"
+        },
+        {
+            "arguments": {
+                "column": "41d2f41d-0c0a-40ce-ab4a-126d27eded42",
+                "type": 8
+            },
+            "type": "change-data-type"
+        }
+    ],
+    "type": "custom"
+}

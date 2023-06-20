@@ -1,0 +1,174 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "AccountID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "AccountID",
+            "oid": "ed983639-6b45-44f3-9e06-2da2119d5da8",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "ClientID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ClientID",
+            "oid": "68d633de-ba08-4ba9-9705-532f338ccd41",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Current Balance",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Current Balance",
+            "oid": "0283e234-78d8-4680-8c00-aff3221faef3",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Name",
+            "oid": "62171c2d-5e96-413a-90bc-9c73c5677e91",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Address",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Address",
+            "oid": "dd8d5896-ff20-4361-9045-8db57e4bf682",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "City",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "City",
+            "oid": "a806df27-c33d-4c6e-b0f7-1b325d61c7e7",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "StateCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StateCode",
+            "oid": "ba672d9d-2819-4b71-84b6-0fafbd2e9aa1",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "StateName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StateName",
+            "oid": "88d6ef9b-9769-4631-a2e8-adf5d4e30aa6",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Country",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Country",
+            "oid": "bd968753-1f0b-4e74-9d5b-80f266eadda7",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CountryCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryCode",
+            "oid": "484d0c1d-1a05-4548-8e93-e7ba0c6e0a04",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ZipCode",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ZipCode",
+            "oid": "60c87c8d-4b75-4b8c-9338-c1c3e7f79834",
+            "precision": 16,
+            "scale": 16,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "CustomerTypeDescription",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CustomerTypeDescription",
+            "oid": "253c8444-c539-4898-aa56-fc0bdc9d9b6c",
+            "precision": 0,
+            "scale": 0,
+            "size": 65536,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "Table": "a71c9cfd6LQAad2a3LQAa4895LQAa8212LQAab9d77c139a65"
+    },
+    "dataset": "06c111e7-e86e-4628-8737-d740827052b7",
+    "expression": {
+        "expression": "./table.sql",
+        "oid": "09664ade-b86e-47b8-bd55-2608d1a1a0d1"
+    },
+    "hidden": false,
+    "id": "a71c9cfd6LQAad2a3LQAa4895LQAa8212LQAab9d77c139a65",
+    "isMaterialized": null,
+    "name": "DimCustomerAccount",
+    "oid": "4d373e4e-a077-4d92-ae7a-dced940cdccb",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "column": "ed983639-6b45-44f3-9e06-2da2119d5da8",
+                "type": 8
+            },
+            "type": "change-data-type"
+        }
+    ],
+    "type": "custom"
+}
